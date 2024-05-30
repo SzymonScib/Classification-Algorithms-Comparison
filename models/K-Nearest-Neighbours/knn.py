@@ -5,7 +5,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from math import sqrt
 import pandas as pd
-import numpy as np
 
 df = pd.read_csv('./data/cancer_data.csv')
 
