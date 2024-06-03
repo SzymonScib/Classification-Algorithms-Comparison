@@ -6,7 +6,8 @@ and also available under this url: https://archive.ics.uci.edu/dataset/17/breast
 ## K-nearest neighbours:
 KNN is a supervised learning classification algorithm that makes predictions based on the distances of the K nearest observations, as its name suggests. It is one of the most popular and simple classification algorithms in today's machine learning. 
 
-The accuracy of this model is 96% and the confusion matrix looks like this:
+The mean cross-validation score of this model is 0.95, which means that on average, the model correctly predicts the target variable 95% of the time.
+The confusion matrix of those cross-validated outcomes presents as follows:
  ![Knn_matrix](https://github.com/SzymonScib/Classification-Algorithms-Comparison/assets/147078927/8eb68dfa-64da-469c-bad2-639fe2defbfa)
  
-We can observe that the model produces more false negatives (FN) than false positives (FP). This suggests that out of the 54 patients with malignant tumors in the test data, the model correctly classified 50 of them while misclassifying 4. This results in an approximate accuracy of ~92.6% in diagnosing malignant tumors based on the provided dataset.
+We can observe that the model produces more false negatives (FN) than false positives (FP). This suggests that out of the 212 patients with malignant tumors in the test data, the model correctly classified 185 of them while misclassifying 27. This results in an approximate accuracy of ~88.2% in diagnosing malignant tumors based on the provided dataset.

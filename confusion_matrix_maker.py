@@ -16,4 +16,4 @@ def make_matrix(TP,TN, FP, FN):
                                     class_names=class_names)
     plt.show()
 
-make_matrix(50, 87, 2, 4)
+make_matrix(185, 356, 1, 27)
