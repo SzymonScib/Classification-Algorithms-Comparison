@@ -8,6 +8,7 @@ KNN is a supervised learning classification algorithm that makes predictions bas
 
 The mean cross-validation score of this model is 0.95, which means that on average, the model correctly predicts the target variable 95% of the time.
 The confusion matrix of those cross-validated outcomes presents as follows:
- ![Knn_matrix](https://github.com/SzymonScib/Classification-Algorithms-Comparison/assets/147078927/8eb68dfa-64da-469c-bad2-639fe2defbfa)
+![KNN-cross-validation-confusion-matrix](https://github.com/SzymonScib/Classification-Algorithms-Comparison/assets/147078927/82f70b6f-eee9-43c2-8d84-a5333a61fd8c)
+
  
 We can observe that the model produces more false negatives (FN) than false positives (FP). This suggests that out of the 212 patients with malignant tumors in the test data, the model correctly classified 185 of them while misclassifying 27. This results in an approximate accuracy of ~88.2% in diagnosing malignant tumors based on the provided dataset.
