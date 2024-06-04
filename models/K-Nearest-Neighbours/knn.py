@@ -13,12 +13,9 @@ df = pd.read_csv('./data/cancer_data.csv')
 X = df.drop(['diagnosis', 'id'], axis=1)
 Y = df['diagnosis']
 
-# Use the Square Root of N rule to pick an optimal k
-k = int(sqrt(len(X)))
-
 pipeline = Pipeline(steps=[
     ('scaler', StandardScaler()),  
-    ('knn', KNeighborsClassifier(n_neighbors=k))  
+    ('knn', KNeighborsClassifier())  
 ])
 
 cv_predictions = cross_val_predict(pipeline, X, Y, cv=5)

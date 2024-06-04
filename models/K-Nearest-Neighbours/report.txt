@@ -1,16 +1,11 @@
 Confusion Matrix for all cross-validated predictions:
-[[185  27]
- [  1 356]]
+[[198  14]
+ [  6 351]]
 Classification Report for all cross-validated predictions:
               precision    recall  f1-score   support
 
-           M       0.99      0.87      0.93       212
-           B       0.93      1.00      0.96       357
+           M       0.97      0.93      0.95       212
+           B       0.96      0.98      0.97       357
 
-    accuracy                           0.95       569
-   macro avg       0.96      0.93      0.95       569
-weighted avg       0.95      0.95      0.95       569
-
-Cross-validation scores: [0.93859649 0.92982456 0.96491228 0.95614035 0.96460177]
-Mean cross-validation score: 0.95
-Standard deviation of cross-validation scores: 0.01
+    accuracy                           0.96       569
+   macro avg       0.97      0.96      0.96       569
